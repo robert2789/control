@@ -1,0 +1,4 @@
+<launch>
+<node name="height_control" pkg="control" type="height_control"/>
+<node name="velocity_collator" pkg="control" type="velocity_collator"/>
+</launch>
